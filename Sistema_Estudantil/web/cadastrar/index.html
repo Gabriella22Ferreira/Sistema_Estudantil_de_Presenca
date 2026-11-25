@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+<!--        Pagina do formulario de cadastros de curs   os-->
+        
+        <div>Cadastro de Cursos</div>
+        
+<!--        INICIO FORMULARIO-->
+        <form method="post" action="cursos_cadastro.jsp">
+
+            <label>Nome do Curso*</label>
+            <input type="text" name="nome" required maxlength="100">
+            <br>
+            
+            <label>Carga horária total*</label>
+            <input type="number" name="carga_horaria" required>
+            <br>
+            
+            <label>Data de início das aulas*</label>
+            <input type="date" name="data_inicio" required>
+            <br>
+            
+            <label>Data de término das aulas*</label>
+            <input type="date" name="data_termino" required>
+            <br>
+            
+            <label>Nível de formação*</label>
+            <select name="nivel_curso">
+                <option value="Profissionalizante">Profissionalizante</option>
+                <option value="Técnico">Técnico</option>
+            </select>
+            <br>
+
+            <label>Descrição e mais detalhes (opcional)</label>
+            <textarea  name="descricao" rows="5" cols="10" ></textarea>
+            <br>
+
+            <label>Status*</label>
+            <select name="status">
+                <option value="ativo">ativo</option>
+                <option value="inativo">inativo</option>
+            </select>
+            <br>
+            
+            <label>Valor da mensalidade (R$)*</label>
+            <input type="number" name="valor_mensalidade"> 
+            <br>
+            
+            <label>Área de conhecimento*</label>
+            <select name="area_conhecimento">
+                <option value="Costura">Costura</option>
+                <option value="Informática">Informática</option>
+                <option value="Nutrição">Nutrição</option>
+                <option value="Desenho">Desenho</option>
+                <option value="Idiomas">Idiomas</option>
+                <option value="Mecânica">Mecânica</option>
+                <option value="Contabilidade">Contabilidade</option>
+            </select>
+            <br>
+
+            <p> <input type="submit" value="Cadastrar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+<!--        FIM FORMULARIO-->
+        
+    </body>
+</html>
