@@ -1,0 +1,41 @@
+/*  
+    Created on : 28 de nov. de 2026, 00:11:28
+    autor: Gabriella
+ */
+
+ 
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ h2{
+     font-family: "Montserrat", sans-serif;
+     text-transform: uppercase;
+     font-size: 2rem;
+     font-weight: 900;
+     margin: 4rem 0rem 4rem 0rem;
+     color: #1f456e;
+     
+ }
+ 
+ 
+ body{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color:#fff1e5;
+ }
+ 
+ a{
+     text-decoration: none;
+     font-family: "Montserrat", sans-serif;
+     padding: 1rem;
+     color: #1f456e;
+     border: 2px solid black;
+     font-weight: 600;
+     border-radius: 1rem;
+     
+ }
+
