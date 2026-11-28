@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <!--
+    /*  
+    autor: Gabriella
+ */
+-->
+<html>
+    <head>
+        <title>Cadastro de Professor</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+<!--        Pagina do formulario de cadastros de Professores-->
+        
+        <div>Cadastro de Professor</div>
+        
+<!--        INICIO FORMULARIO-->
+        <form method="post" action="professor_cadastro.jsp">
+
+            <label>Nome do Completo: *</label>
+            <input type="text" name="nome" required maxlength="100">
+            <br>
+            
+            <label>CPF: *</label>
+            <input type="text" name="cpf" required maxlength="100">
+            <br>
+            
+             <label>E-mail Institucional: *</label>
+            <input type="text" name="email_Institucional" required maxlength="100">
+            <br>
+            
+             <label>Telefone: *</label>
+            <input type="text" name="telefone" required maxlength="100">
+            <br>
+            
+             <label>Sexo *</label>
+            <select name="sexo">
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+                <option value="N">Prefiro Não Identificar</option>         
+            </select>
+            <br>
+            
+            <label>Data de Cadastro: *</label>
+            <input type="date" name="data_Cadastro" required>
+            <br>
+            
+            <label>Data de Nascimento: *</label>
+            <input type="date" name="data_Nascimento">
+            <br>
+
+            <label>Endereço: (CEP)*</label>
+            <input type="text" name="endereco" required maxlength="100">
+            <br>
+
+            <label>Especialidade: *</label>
+            <select name="especialidade">
+                <option value="Costura">Costura</option>
+                <option value="Informática">Informática</option>
+                <option value="Nutrição">Nutrição</option>
+                <option value="Desenho">Desenho</option>
+                <option value="Idiomas">Idiomas</option>
+                <option value="Mecânica">Mecânica</option>
+                <option value="Contabilidade">Contabilidade</option>
+            </select>
+            <br>
+            
+            <label>Formação: *</label>
+            <select name="formacao">
+                <option value="tecnologo">Tecnologo</option>
+                 <option value="bacharelado">Bacharelado</option>
+                <option value="mestrado">Mestrado</option>
+                <option value="Doutorado">Doutorado</option>
+            </select>
+            <br>
+
+            <p> <input type="submit" value="Cadastrar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+<!--        FIM FORMULARIO-->
+        
+    </body>
+</html>

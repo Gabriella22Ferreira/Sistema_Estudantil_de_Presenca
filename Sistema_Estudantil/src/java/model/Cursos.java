@@ -1,6 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+/*  
+    autor: Thalita
  */
 package model;
 import java.sql.Date; //importação de DATE sql, para utilizar formatação de datas
